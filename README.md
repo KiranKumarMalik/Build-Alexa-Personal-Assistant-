@@ -30,9 +30,9 @@
   
       pip install wikipedia
 
-- ecapture==0.1.8
+- ecapture==2.0.2
   
-      pip install ecapture==0.1.8
+      pip install ecapture==2.0.2
 
 - wolframalpha==4.1.1
   

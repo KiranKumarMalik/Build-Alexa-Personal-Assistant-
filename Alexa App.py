@@ -44,6 +44,7 @@ from PIL import Image, ImageGrab
 import qrcode
 import speedtest
 import librosa
+import cv2
 
 pyttsx3.speak("Enter your password")
 inpass = getpass.getpass("Enter your password :")
@@ -572,7 +573,7 @@ if __name__ == '__main__':
                 time.sleep(5)
             time.sleep(6)
 
-        elif "camera" in statement or "take a photo" in statement:
+        elif "camera" in statement or "take a photo" in statement or "capture a photo" in statement:
             ec.capture(0, "robo camera", "img.jpg")
 
         elif 'search' in statement:
@@ -757,27 +758,27 @@ if __name__ == '__main__':
             speak("Opening Microsoft Outlook")
             os.system("start outlook")
 
-        elif "word" in statement:
+        elif "word" in statement or 'open msword' in statement or 'wordpad' in statement or 'open wordpad' in statement:
             speak("Opening Word")
             os.system("start winword")
 
-        elif "paint" in statement:
+        elif "paint" in statement or 'open mspaint' in statement:
             speak("Opening Paint")
             os.system("start mspaint")
 
-        elif "excel" in statement:
+        elif "excel" in statement or 'open msexcel' in statement or 'open microsoft excel' in statement or 'axle' in statement:
             speak("Opening Excel")
             os.system("start excel")
 
-        elif "start chrome" in statement:
+        elif "start chrome" in statement or 'open google chrome' in statement or 'google chrome' in statement:
             speak("Opening Google Chrome")
-            os.system("start chrome")
+            os.system("start Chrome")
 
         elif 'chrome in incognito mode' in statement or 'chrome in incognito' in statement:
             speak("Opening Google Chrome in Incognito mode")
             os.system('start chrome -incognito')
 
-        elif "power point" in statement or "powerpoint" in statement or "ppt" in statement:
+        elif "power point" in statement or "powerpoint" in statement or "ppt" in statement or 'open ms powerpoint' in statement:
             speak("Opening Power Point")
             os.system("start powerpnt")
 
