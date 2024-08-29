@@ -2,7 +2,7 @@
 
 🔴 Follow this video for the code walkthrough:
 
-[![Alt text](https://raw.githubusercontent.com/pik1989/Alexa/main/Building%20an%20Alexa%20Skill%20in%2030%20minutes%20using%20Python.JPG)](https://www.youtube.com/watch?v=fXRbnSWJVJY)
+[![Alt text](https://github.com/KiranKumarMalik/Build-Alexa-Personal-Assistant-/blob/ea8da8b5b0ce745f6676aa45a0e2d973d78391e9/youtube.png)](https://www.youtube.com/watch?v=5Ljesb4KJ-A)
 
 
 # Clone repository
